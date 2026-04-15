@@ -1,20 +1,47 @@
+{
+  "name": "Python GUI",
+  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"]
+      
+    }
+  }
+}
+
 // {
-//   "name": "Python GUI",
-//   "image": "mcr.microsoft.com/devcontainers/python:3",
+//   "features": {
+//     "ghcr.io/devcontainers/features/desktop-lite:1": {}
+//   },
+//   "customizations": {
+//     "vscode": {
+//       "extensions": [
+//         "ms-python.vscode-pylance"
+//       ]
+//     }
+//   }
+// }
+// {
 //   "features": {
 //     "ghcr.io/devcontainers/features/desktop-lite:1": {
-//       "version": "latest"
+//         "installVncServer": true
 //     }
 //   },
 //   "customizations": {
 //     "vscode": {
-//       "extensions": ["ms-python.python"]
+//           "extensions": [
+//             "ms-python.python",
+//             "ms-python.vscode-pylance",
+//             "ms-python.debugpy",
+//             "ms-python.vscode-python-envs"
+//       ]
 //     }
 //   }
 // }
-
-{
-  "features": {
-    "ghcr.io/devcontainers/features/desktop-lite:1": {}
-  }
-}
